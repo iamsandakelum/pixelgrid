@@ -7,14 +7,14 @@
   </head>
 	<body>
     <table class="pixelgrid" cellspacing="0" cellpadding="0" border="0">
-        <tbody></tbody>
+		<tbody></tbody>
     </table>
-		<script src="../dist/js/pixelgrid.min.js"></script>
-		<script type="text/javascript">
-			var grid = new PixelGrid(document.getElementsByClassName('.pixelgrid')[0].childNode[0], 100, 1);
-			grid.fillRandom([210, 1, 0.60], [1, 0.3, 0.3]);
+	<script type="text/javascript" src="../dist/js/pixelgrid.min.js"></script>
+	<script type="text/javascript">
+		var grid = new PixelGrid(document.getElementsByClassName('.pixelgrid')[0].childNode[0], 100, 1);
+		grid.fillRandom([210, 1, 0.60], [1, 0.3, 0.3]);
 
-			new PixelGrid.Glimmer(grid, 30);
-		</script>
+		new PixelGrid.Glimmer(grid, 30);
+	</script>
   </body>
 </html>
